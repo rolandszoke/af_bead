@@ -1,0 +1,13 @@
+
+#direction: right
+#arrowSize: 1
+#spacing: 80
+#padding: 15
+
+[Adatmodell|
+  [User|felhasználónév;email;jelszó]
+
+  [Film|név;mûfaj;rendezõ;imdb link; rottentomatoes link;trailer link]0..*-1[Rendezõ|név;imdb link; rottentomatoes link]
+  [Film|név;mûfaj;rendezõ;imdb link; rottentomatoes link;trailer link]0..*-1[Mûfaj|név]
+  [Film|név;mûfaj;rendezõ;imdb link; rottentomatoes link;trailer link]0..*-0..*[Szinész|név;imdb link; rottentomatoes link]
+]
