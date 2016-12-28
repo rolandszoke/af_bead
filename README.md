@@ -141,7 +141,7 @@ Bejelentkezés/regisztrálás ajaxos megvalósítása egy popup ablakkal lett me
 ##Tesztek
 ------
 ###IDE
-* Selinium IDE használata a létrehozott tesztekre mozzilával lehetséges
+* Selenium IDE használata a létrehozott tesztekre mozzilával lehetséges
 * bővítmény telepítése: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
 * futtatás után Ctrl+O kombinációval megnyithatók a létrehozott tesztek, amiket a tests mappában találunk meg
 
